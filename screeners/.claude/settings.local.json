@@ -3,7 +3,8 @@
     "allow": [
       "Bash(python -c \":*)",
       "Bash(python \"c:/Users/kwgj0/iCloudDrive/AI/finance-tools/screeners/fix_type_ignore.py\")",
-      "Bash(python \"c:/Users/kwgj0/iCloudDrive/AI/finance-tools/screeners/fix_type_ignore2.py\")"
+      "Bash(python \"c:/Users/kwgj0/iCloudDrive/AI/finance-tools/screeners/fix_type_ignore2.py\")",
+      "Read(//c/Users/kwgj0/iCloudDrive/AI/finance-tools/**)"
     ],
     "additionalDirectories": [
       "c:\\Users\\kwgj0\\iCloudDrive\\AI\\finance-tools\\screeners"
