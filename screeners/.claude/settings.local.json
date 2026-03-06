@@ -4,7 +4,12 @@
       "Bash(python -c \":*)",
       "Bash(python \"c:/Users/kwgj0/iCloudDrive/AI/finance-tools/screeners/fix_type_ignore.py\")",
       "Bash(python \"c:/Users/kwgj0/iCloudDrive/AI/finance-tools/screeners/fix_type_ignore2.py\")",
-      "Read(//c/Users/kwgj0/iCloudDrive/AI/finance-tools/**)"
+      "Read(//c/Users/kwgj0/iCloudDrive/AI/finance-tools/**)",
+      "Bash(jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=90 --inplace AI_Hub.ipynb)",
+      "Bash(python -m jupyter --version)",
+      "Bash(python -m jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=90 --inplace AI_Hub.ipynb)",
+      "Bash(python -c \"import gradio; print\\(gradio.__version__\\)\")",
+      "Bash(python -c \"import gradio as gr; help\\(gr.Chatbot.__init__\\)\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\kwgj0\\iCloudDrive\\AI\\finance-tools\\screeners"
