@@ -122,12 +122,18 @@ Adjusted upward for high-beta portfolios (β > 1.3) and high sector concentratio
 
 ```
 finance-tools/
-├── data/
-├── notebooks/
-│   └── Dual_AI_Stock_Analyzer.ipynb    ← main notebook
+├── ai hub/
+│   ├── .env
+│   └── AI_Hub.ipynb
 ├── screeners/
-├── strategies/
+│   ├── .env
+│   ├── CLAUDE.md                           ← this file
+│   ├── Dual_AI_Stock_Analyzer.ipynb        ← main notebook
+│   └── Stock_Trader.ipynb
+├── cell_10.py
+├── cell_11.py
+├── extract_cells.py
+├── inject_cells.py
 ├── .gitignore
-├── CLAUDE.md                           ← this file
 └── README.md
 ```
