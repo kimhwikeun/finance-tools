@@ -2,7 +2,7 @@
 
 ## What This Project Is
 
-A personal AI-powered stock analysis tool that runs as a Jupyter notebook (`Dual_AI_Stock_Analyzer.ipynb`) in Google Colab or VS Code. It combines multiple AI models and financial data sources into an 8-stage analysis pipeline with a Gradio web UI. Built for personal investment research and portfolio management — not a production app.
+A personal AI-powered stock analysis tool that runs as a Jupyter notebook (`Dual_AI_Stock_Analyzer.ipynb`) in Google Colab or Antigravity. It combines multiple AI models and financial data sources into an 8-stage analysis pipeline with a Gradio web UI. Built for personal investment research and portfolio management — not a production app.
 
 ## Architecture
 
@@ -83,10 +83,10 @@ Adjusted upward for high-beta portfolios (β > 1.3) and high sector concentratio
 - No redundancy between data sources (yfinance handles live data, SEC handles historical depth)
 
 **Environment:**
-- Must run in both Google Colab and VS Code without manual changes
+- Must run in both Google Colab and Antigravity without manual changes
 - Colab: requires `share=True` on Gradio launch + auth credentials via `google.colab.userdata`
-- VS Code: `share=False` is fine, secrets via `python-dotenv` / `.env` file
-- Auto-detect environment for `share=` parameter (Colab vs VS Code)
+- Antigravity: `share=False` is fine, secrets via `python-dotenv` / `.env` file
+- Auto-detect environment for `share=` parameter (Colab vs Antigravity)
 
 **Financial guardrails:**
 - Never give specific buy/sell recommendations — build tools for decision-making
@@ -106,7 +106,7 @@ Adjusted upward for high-beta portfolios (β > 1.3) and high sector concentratio
 
 ## On the Horizon
 
-- Colab/VS Code auto-detection fix for Gradio `share=` parameter (proposed but not yet applied)
+- Colab/Antigravity auto-detection fix for Gradio `share=` parameter (proposed but not yet applied)
 - Earnings transcript stage as a parallel Gemini call (prototyping offered, not yet built)
 - Potential upgrade to paid data providers (Polygon.io, Alpha Vantage premium, Financial Modeling Prep) if free-tier reliability becomes a concern
 
