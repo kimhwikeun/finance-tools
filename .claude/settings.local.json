@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -c \":*)"
+      "Bash(python -c \":*)",
+      "WebSearch",
+      "Bash(python update_notebook.py)"
     ]
   }
 }
